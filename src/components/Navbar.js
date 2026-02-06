@@ -9,7 +9,9 @@ function Navbar() {
         {/* TOP ROW */}
         <div className="navbar-top">
           <div className="top-left">
-            <button className="lang-btn">🌐 Bahasa</button>
+            <button type="button" className="lang-btn">
+              🌐 Bahasa
+            </button>
           </div>
 
           <div className="top-center">
@@ -24,10 +26,10 @@ function Navbar() {
         {/* BOTTOM ROW */}
         <div className="navbar-bottom">
           <nav className="nav-menu">
-            <a href="#">Movies</a>
-            <a href="#">F&amp;B</a>
-            <a href="#">News & Promotions</a>
-            <a href="#">Cinema</a>
+            <a href="/">Movies</a>
+            <a href="/">F&amp;B</a>
+            <a href="/">News &amp; Promotions</a>
+            <a href="/">Cinema</a>
           </nav>
 
           <div className="right-actions">
@@ -38,7 +40,9 @@ function Navbar() {
                 placeholder="Search movies or theater.."
               />
             </div>
-            <button className="join-btn">Join Us</button>
+            <button type="button" className="join-btn">
+              Join Us
+            </button>
           </div>
         </div>
 
