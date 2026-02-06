@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import HeroBanner from "./components/HeroBanner";
+import cinemas from "./data/cinemas";
+import CinemaCard from "./components/CinemaCard";
+import Footer from "./components/Footer"; // ← ini ditambah
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <HeroBanner />
+
+      <div className="container">
+        <h2 className="section-title">Cinemas</h2>
+
+        <div className="cinema-grid">
+          {cinemas.map((cinema) => (
+            <CinemaCard key={cinema.id} cinema={cinema} />
+          ))}
+        </div>
+      </div>
+
+      <Footer /> {/* ← FOOTER DI SINI */}
+    </>
   );
 }
 

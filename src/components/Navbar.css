@@ -1,0 +1,74 @@
+.navbar {
+  width: 100%;
+  background: #0b1c2d;
+  color: white;
+}
+
+.navbar-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px 24px;
+}
+
+/* ===== TOP ROW ===== */
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  height: 40px;
+}
+
+/* ===== BOTTOM ROW ===== */
+.navbar-bottom {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.right-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+}
+
+.join-btn {
+  background: #121455;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
