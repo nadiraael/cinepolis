@@ -42,8 +42,12 @@
   margin-bottom: 6px;
 }
 
-.cinema-row svg {
+/* EMOJI ICON */
+.cinema-icon {
   font-size: 15px;
   margin-top: 2px;
-  color: #b0b0b0;
+}
+
+.cinema-text {
+  flex: 1;
 }

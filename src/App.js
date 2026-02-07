@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroBanner from "./components/HeroBanner";
 import cinemas from "./data/cinemas";
 import CinemaCard from "./components/CinemaCard";
-import Footer from "./components/Footer"; // ← ini ditambah
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         </div>
       </div>
 
-      <Footer /> {/* ← FOOTER DI SINI */}
+      <Footer />
     </>
   );
 }
